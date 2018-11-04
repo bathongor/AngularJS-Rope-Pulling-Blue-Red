@@ -1,15 +1,17 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
 #box-container{
-	display: flex;
-    height: 1080px;
-    font-size: 30px;
+    display: flex;
 }
 
 #boxRed{
-	background-color: dodgerblue;
+	background-color: red;
 }
 
 #boxBlue{
-	background-color: red;
+	background-color: blue;
 }
 #RedButton{
 	text-transform: uppercase;
