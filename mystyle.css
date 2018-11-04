@@ -1,0 +1,26 @@
+#box-container{
+	display: flex;
+    height: 1080px;
+    font-size: 30px;
+}
+
+#boxRed{
+	background-color: dodgerblue;
+}
+
+#boxBlue{
+	background-color: red;
+}
+#RedButton{
+	text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+}
+#BlueButton{
+	text-transform: uppercase;
+    width: 100px;
+    height: 50px;
+}
+
+@media (max-height: 800px){#RedButton{width: 75px;height: 40px;font-size: 10px;} #BlueButton{width: 75px;height: 40px;font-size: 10px;}}
+@media (max-width: 1300px){#RedButton{width: 75px;height: 40px;font-size: 10px;} #BlueButton{width: 75px;height: 40px;font-size: 10px;}}
